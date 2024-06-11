@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  .headerBar {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+  }
+  
+  .topbar {
+    margin-bottom: 10px;
+  }
+  
+  .currency {
+    font-size: 30px;
+    font-weight: 300;
+  }
+  
+  .balance {
+    font-size: 30px;
+    font-weight: 300;
+  }
+  
+  .content {
+    width: 580px;
+    margin: 0 auto;
+    padding: 3%;
+    padding-left: 6%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .secondTitle {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 25px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .form {
+    padding: 20px;
+  }
+  
+  .formLine {
+    display: inline-flex;
+    padding: 10px 0px;
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+    margin-right: 100px;
+  }
+  
+  input,
+  select {
+    width: 200px;
+    margin-left: 10px;
+  }
+  
+  /* table style */
+  table {
+    width: 100%;
+  }
+  
+  thead {
+    background-color: #4CAF50;
+    color: #fff;
+    line-height: 30px;
+  }
+  
+  tbody {
+    background-color: #f9f9f9;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  /* Button */
+  
+  button {
+    width: 200px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 20px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    margin: 14px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  a {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .deleteButton {
+    color: #ff6347;
+    cursor: pointer;
+  }
+  
